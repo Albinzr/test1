@@ -1,0 +1,11 @@
+framework module IntellicarBle {
+  umbrella header "IntellicarBle.h"
+
+  export *
+  module * { export * }
+}
+
+module IntellicarBle.Swift {
+    header "IntellicarBle-Swift.h"
+    requires objc
+}
